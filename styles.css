@@ -1,0 +1,122 @@
+/* Body Section */
+body {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    text-shadow: 0 0 1px black;
+}
+
+img {
+    width: 100px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 30px;
+    margin: 0;
+}
+
+/* Hero Section */
+#hero-section {
+    background-image: url('images/hometown.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #424427;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-title {
+    font-size: 50px;
+    background-color: #bdaca0;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin: 0 0 20px 0;
+}
+
+#hero-description {
+    font-size: 40px;
+    background-color: #b29863;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+/* Activities Section */
+#activities-section {
+    background-color: #70578f;
+    padding: 10px 0;
+    width: 100%;
+    height: 500px;
+    color: #c8bcd2;
+}
+
+#activities-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px;
+}
+
+.activity-1, .activity-2, .activity-3, p {
+    margin: 0 10px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0 15px 0;
+}
+
+.activity-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 10px 10px;
+}
+
+.paragraph-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.paragraph-title, .paragraph-description {
+    max-width: 200px;
+    padding: 10px 10px;
+}
+
+.activity-1:hover, .activity-2:hover, .activity-3:hover {
+    background-color: #413347;
+    font-size: 35px;
+}
+
+/* Guide Section */
+#guide-section {
+    background-color: #4d435b;
+    padding: 10px 0;
+    width: 100%;
+    height: 500px;
+    color: #e6dce1;
+}
+
+.guide-img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10%;
+    padding: 10px 10px;
+}
+
+#guide-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
